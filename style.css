@@ -201,15 +201,15 @@ header .navbar a:hover{
 }
 
 .speciality .box-container{
-    min-height: 356px;
+    /* min-height: 356px; */
     display:flex;
-    flex: wrap;
+    flex-wrap: wrap;
     gap:1.5rem;
 
 }
 
 .speciality .box-container .box{
-    flex: 1 1 50rem;
+    flex: 1 1 30rem;
     position: relative;
     overflow: hidden;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
@@ -226,7 +226,7 @@ header .navbar a:hover{
     top:-100%; left: 0; 
 }
 
-.speciality .box-container .box .image .content{
+.speciality .box-container .box  .content{
     text-align: center;
     background: #fff;
     padding: 2rem;  
@@ -234,25 +234,25 @@ header .navbar a:hover{
  
 .speciality .box-container .box .content a{
     margin: 1.5rem 0;
-    padding: 6rem;;
+    /* padding: 6rem;; */
    
     
 }
 
 .speciality .box-container .box .content h3{
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     color: #333;
 }
 
 .speciality .box-container .box .content p{
     font-size: 1.6rem;
     color: #666;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 
 .speciality .box-container .box:hover .image{
-    top: 0;
+    top:0;
 }
  .speciality .box-container .box:hover .content{
     transform: translateY(160%);
@@ -550,10 +550,7 @@ header .navbar a:hover{
    border-radius: .5rem;
    transition: 1s linear ;
    z-index: 1000;
-   -webkit-transition: 1s linear ;
-   -moz-transition: 1s linear ;
-   -ms-transition: 1s linear ;
-   -o-transition: 1s linear ;
+   
 }
 
 #scroll-top.active{
