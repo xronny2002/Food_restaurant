@@ -185,6 +185,10 @@ header .navbar a:hover{
     transform:translateY(3rem);
     }
 }
+
+.home .content p span{
+    color: red;
+}
      
 .home .content h3{
     font-size: 5rem;
